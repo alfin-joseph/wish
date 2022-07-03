@@ -1,0 +1,805 @@
+#d1{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    border-radius: 0%;
+    animation-name: square;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+@keyframes square{
+0%{
+    background-color: red;
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+}
+25%{
+    background-color: rgb(13, 0, 255);
+    left: 10rem;
+    top: 0px;
+    border-radius: 50%;
+}
+50%{
+    background-color: rgb(0, 255, 136);
+    left: 15rem;
+    top: 25rem;
+    border-radius: 50%;
+}
+75%{
+    background-color: rgb(187, 198, 37);
+    left: 0px;
+    top: 5rem;
+    border-radius: 50%;
+}
+100%{
+    background-color: rgb(32, 154, 195);
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+}
+}
+#d2{
+    width: 50px;
+    height: 50px;
+    
+    background-color: red;
+    position: absolute;
+    border-radius: 0%;
+    animation-name:circle;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+@keyframes circle{
+0%{
+    background-color: rgb(55, 40, 40);
+    left: 0px;
+    top: 60px;
+    border-radius: 50%;
+}
+25%{
+    background-color: rgb(3, 154, 61);
+    left: 20rem;
+    top: 0rem;
+    border-radius: 50%;
+}
+50%{
+    background-color: rgb(29, 44, 176);
+    left: 5rem;
+    top: 15rem;
+    border-radius: 50%;
+}
+75%{
+    background-color: rgb(234, 64, 166);
+    left: 0rem;
+    top: 30rem;
+    border-radius: 50%;
+}
+100%{
+    background-color: rgb(54, 73, 201);
+    left: 10rem;
+    top: 40rem;
+    border-radius: 50%;
+}
+}
+#d3{
+    width: 50px;
+    height: 50px;
+    
+    background-color: red;
+    position: absolute;
+    border-radius: 0%;
+    animation-name:d3;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+@keyframes d3{
+0%{
+    background-color: rgb(241, 12, 104);
+    right: 0rem;
+    top: 30rem;
+    border-radius: 50%;
+}
+25%{
+    background-color: rgb(194, 217, 203);
+    left: 10rem;
+    top: 5rem;
+    border-radius: 50%;
+}
+50%{
+    background-color: rgb(210, 101, 18);
+    left: 15rem;
+    top: 6rem;
+    border-radius: 50%;
+}
+75%{
+    background-color: rgb(14, 210, 30);
+    left: 8rem;
+    top: 12rem;
+    border-radius: 50%;
+}
+100%{
+    background-color: rgb(99, 191, 13);
+    left: 10rem;
+    top: 40rem;
+    border-radius: 50%;
+}
+}
+#d4{
+    width: 50px;
+    height: 50px;
+    
+    background-color: rgb(43, 33, 227);
+    position: absolute;
+    border-radius: 0%;
+    animation-name:d4;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+@keyframes d4{
+0%{
+    background-color: rgb(104, 219, 37);
+    right: 0rem;
+    bottom: 30rem;
+    border-radius: 50%;
+}
+25%{
+    background-color: rgb(218, 18, 18);
+    left: 20rem;
+    top: 10rem;
+    border-radius: 50%;
+}
+50%{
+    background-color: rgb(176, 249, 20);
+    right: 15rem;
+    top: 6rem;
+    border-radius: 50%;
+}
+75%{
+    background-color: rgb(14, 53, 210);
+    left: 8rem;
+    bottom: 12rem;
+    border-radius: 50%;
+}
+100%{
+    background-color: rgb(9, 155, 239);
+    left: 10rem;
+    top: 40rem;
+    border-radius: 50%;
+}
+}
+#d5{
+    width: 50px;
+    height: 50px;
+    
+    background-color: red;
+    position: absolute;
+    border-radius: 0%;
+    animation-name:d5;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+@keyframes d5{
+0%{
+    background-color: rgb(18, 11, 217);
+    right: 10rem;
+    top: 30rem;
+    border-radius: 50%;
+}
+25%{
+    background-color: rgb(218, 47, 4);
+    left: 5rem;
+    top: 15rem;
+    border-radius: 50%;
+}
+50%{
+    background-color: rgb(43, 87, 184);
+    left: 15rem;
+    top: 6rem;
+    border-radius: 50%;
+}
+75%{
+    background-color: rgb(69, 9, 118);
+    left: 18rem;
+    top: 30rem;
+    border-radius: 50%;
+}
+100%{
+    background-color: rgb(6, 90, 90);
+    left: 10rem;
+    top: 20rem;
+    border-radius: 50%;
+}
+}
+#d6{
+    width: 50px;
+    height: 50px;
+    
+    background-color: red;
+    position: absolute;
+    border-radius: 0%;
+    animation-name:d6;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+@keyframes d6{
+0%{
+    background-color: rgb(241, 12, 104);
+    top: 0rem;
+    left: 30rem;
+    border-radius: 50%;
+}
+25%{
+    background-color: rgb(194, 217, 203);
+    left: 0rem;
+    top: 15rem;
+    border-radius: 50%;
+}
+50%{
+    background-color: rgb(210, 101, 18);
+    left: 15rem;
+    top: 22rem;
+    border-radius: 50%;
+}
+75%{
+    background-color: rgb(14, 210, 30);
+    left: 18rem;
+    top: 6rem;
+    border-radius: 50%;
+}
+100%{
+    background-color: rgb(99, 191, 13);
+    right: 10rem;
+    bottom:30rem;
+    border-radius: 50%;
+}
+}
+#d7{
+    width: 50px;
+    height: 50px;
+    
+    background-color: red;
+    position: absolute;
+    border-radius: 0%;
+    animation-name:d7;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+@keyframes d7{
+0%{
+    background-color: rgb(10, 180, 10);
+    right: 10rem;
+    top: 22rem;
+    border-radius: 50%;
+}
+25%{
+    background-color: rgb(197, 191, 9);
+    left: 10rem;
+    right: 5rem;
+    border-radius: 50%;
+}
+50%{
+    background-color: rgb(201, 25, 107);
+    top: 15rem;
+    right: 6rem;
+    border-radius: 50%;
+}
+75%{
+    background-color: rgb(207, 237, 35);
+    left: 10rem;
+    top: 22rem;
+    border-radius: 50%;
+}
+100%{
+    background-color: rgb(37, 153, 225);
+    left: 13rem;
+    top: 0rem;
+    border-radius: 50%;
+}
+}
+#d8{
+    width: 50px;
+    height: 50px;
+    
+    background-color: red;
+    position: absolute;
+    border-radius: 0%;
+    animation-name:d8;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+@keyframes d8{
+0%{
+    background-color: rgb(18, 109, 228);
+    right: 10rem;
+    top: 0rem;
+    border-radius: 50%;
+}
+25%{
+    background-color: rgb(2, 246, 59);
+    right: 12rem;
+    top: 15rem;
+    border-radius: 50%;
+}
+50%{
+    background-color: rgb(210, 101, 18);
+    left: 12rem;
+    top: 10rem;
+    border-radius: 50%;
+}
+75%{
+    background-color: rgb(243, 31, 221);
+    left: 8rem;
+    bottom: 12rem;
+    border-radius: 50%;
+}
+100%{
+    background-color: rgb(181, 248, 13);
+    left: 10rem;
+    right: 5rem;
+    border-radius: 50%;
+}
+}
+#d9{
+    width: 50px;
+    height: 50px;
+    
+    background-color: red;
+    position:absolute;
+    border-radius: 0%;
+    animation-name:d9;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+@keyframes d9{
+0%{
+    background-color: rgb(241, 233, 12);
+    right: 0rem;
+    top: 30rem;
+    border-radius: 50%;
+}
+25%{
+    background-color: rgb(105, 62, 225);
+    left: 10rem;
+    top: 5rem;
+    border-radius: 50%;
+}
+50%{
+    background-color: rgb(226, 75, 196);
+    left: 15rem;
+    top: 6rem;
+    border-radius: 50%;
+}
+75%{
+    background-color: rgb(14, 210, 30);
+    left: 8rem;
+    top: 12rem;
+    border-radius: 50%;
+}
+100%{
+    background-color: rgb(37, 215, 212);
+    left: 10rem;
+    top: 40rem;
+    border-radius: 50%;
+}
+}
+#d10{
+    width: 50px;
+    height: 50px;
+    
+    background-color: red;
+    position: absolute;
+    border-radius: 0%;
+    animation-name:d10;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+@keyframes d10{
+0%{
+    background-color: rgb(241, 12, 104);
+    right: 5rem;
+    top: 20rem;
+    border-radius: 50%;
+}
+25%{
+    background-color: rgb(194, 217, 203);
+    left: 1rem;
+    top: 33rem;
+    border-radius: 50%;
+}
+50%{
+    background-color: rgb(210, 101, 18);
+    left: 25rem;
+    top: 16rem;
+    border-radius: 50%;
+}
+75%{
+    background-color: rgb(14, 210, 30);
+    left: 5rem;
+    top: 18rem;
+    border-radius: 50%;
+}
+100%{
+    background-color: rgb(99, 191, 13);
+    left: 5rem;
+    top: 20rem;
+    border-radius: 50%;
+}
+}
+body{
+    background-color: aqua;
+   
+    animation: bod 5s linear 0s infinite alternate backwards;
+    animation-play-state: running;
+}
+@keyframes bod{
+    0%{
+        background-color: aquamarine;
+    }
+    10%{
+        background-color:azure;
+    }
+    20%{
+        background-color:beige;
+    }
+    30%{
+        background-color:bisque;
+    }
+    40%{
+        background-color:blanchedalmond;
+    }
+    50%{
+        background-color:burlywood;
+    }
+    60%{
+        background-color:cadetblue;
+    }
+    70%{
+        background-color:darkgray;
+    }
+    80%{
+        background-color:rgb(200, 180, 132);
+    }
+    90%{
+        background-color:rgb(189, 134, 116);
+    }
+    100%{
+        background-color:rgb(180, 48, 180);
+    }
+
+}
+h1{
+    position: relative;
+    animation: h1 20s linear 0s infinite alternate backwards;
+}
+@keyframes h1{
+    0%{
+top: 0rem;
+    }
+}
+.main{
+    margin-top: 10%;
+    display: flex;
+    position:relative;
+    background-attachment:inherit;
+}
+
+.m2{
+    width: 30px;
+}
+h1{
+    font-family: cursive;
+    color: rgb(233, 236, 236);
+    animation: col 1 linear 0s infinite alternate backwards;
+}
+@keyframes col{
+    0%{
+        color: rgb(14, 14, 221);
+    }
+    0.1%{
+color:rgb(188, 188, 209);
+    }
+    100%{
+        color: rgb(42, 10, 223);
+    }
+}
+#s1{
+    width: 5px;
+height: 60px;
+margin-top:10rem;
+padding:5%;
+    background-color: rgba(35, 1, 1, 0.075);
+    animation: s1 1s linear 0s infinite alternate backwards;
+    animation-play-state: running;
+}
+@keyframes s1{
+    0%{
+        background-color: black;
+    }
+    0.1%{
+        background-color:rgba(35, 1, 1, 0.075) ;
+    }
+    100%{
+        background-color: black;
+    }
+}
+#s2{
+    width: 5px;
+height: 60px;
+margin-top:10rem;
+padding:5%;
+    background-color: rgba(35, 1, 1, 0.075);
+    animation: s2 1s linear 100ms infinite alternate backwards;
+    animation-play-state: running;
+}
+@keyframes s2{
+    0%{
+        background-color: black;
+    }
+    0.1%{
+        background-color: rgba(0, 0, 0, 0.075);
+    }
+    100%{
+        background-color: black;
+    }
+}
+#s3{
+    width: 5px;
+height: 60px;
+margin-top:10rem;
+padding:5%;
+    background-color: rgba(35, 1, 1, 0.075);
+    animation: s3 1s linear 200ms infinite alternate backwards;
+    animation-play-state: running;
+}
+@keyframes s3{
+    0%{
+        background-color: black;
+    }
+    0.1%{
+        background-color: rgba(0, 0, 0, 0.075);
+    }
+    100%{
+        background-color: black;
+    }
+}
+#s4{
+    width: 5px;
+height: 60px;
+margin-top:10rem;
+padding:5%;
+    background-color: rgba(35, 1, 1, 0.075);
+    animation: s4 1s linear 300ms infinite alternate backwards;
+    animation-play-state: running;
+}
+@keyframes s4{
+    0%{
+        background-color: black;
+    }
+    0.1%{
+        background-color: rgba(0, 0, 0, 0.075);
+    }
+    100%{
+        background-color: black;
+    }
+}
+#s5{
+    width: 5px;
+height: 60px;
+margin-top:10rem;
+padding:5%;
+    background-color: rgba(35, 1, 1, 0.075);
+    animation: s5 1s linear 400ms infinite alternate backwards;
+    animation-play-state: running;
+}
+@keyframes s5{
+    0%{
+        background-color: black;
+    }
+    0.1%{
+        background-color: rgba(0, 0, 0, 0.075);
+    }
+    100%{
+        background-color: black;
+    }
+}
+#s6{
+    width: 5px;
+height: 60px;
+margin-top:10rem;
+padding:5%;
+    background-color: rgba(35, 1, 1, 0.075);
+    animation: s6 1s linear 500ms infinite alternate backwards;
+    animation-play-state: running;
+}
+@keyframes s6{
+    0%{
+        background-color: black;
+    }
+    0.1%{
+        background-color: rgba(0, 0, 0, 0.075);
+    }
+    100%{
+        background-color: black;
+    }
+}
+#s7{
+    width: 5px;
+height: 60px;
+margin-top:10rem;
+padding:5%;
+    background-color: rgba(35, 1, 1, 0.075);
+    animation: s7 1s linear 600ms infinite alternate backwards;
+    animation-play-state: running;
+}
+@keyframes s7{
+    0%{
+        background-color: black;
+    }
+    0.1%{
+        background-color: rgba(0, 0, 0, 0.075);
+    }
+    100%{
+        background-color: black;
+    }
+}
+#s8{
+    width: 5px;
+height: 60px;
+margin-top:10rem;
+padding:5%;
+    background-color: rgba(35, 1, 1, 0.075);
+    animation: s8 1s linear 700ms infinite alternate backwards;
+    animation-play-state: running;
+}
+@keyframes s8{
+    0%{
+        background-color: black;
+    }
+    0.1%{
+        background-color: rgba(0, 0, 0, 0.075);
+    }
+    100%{
+        background-color: black;
+    }
+}
+#s9{
+    width: 5px;
+height: 60px;
+margin-top:10rem;
+padding:5%;
+    background-color: rgba(35, 1, 1, 0.075);
+    animation: s9 1s linear 800ms infinite alternate backwards;
+    animation-play-state: running;
+}
+@keyframes s9{
+    0%{
+        background-color: black;
+    }
+    0.1%{
+        background-color: rgba(0, 0, 0, 0.075);
+    }
+    100%{
+        background-color: black;
+    }
+}
+.main2{
+margin-left: 6rem;
+background-color: rgba(75, 75, 96, 0);
+width: 200px;
+height: 100px;
+animation: main2 6s linear 0s infinite alternate backwards;
+}
+/* @keyframes main2{
+    0%{
+        background-color:rgba(229, 33, 33, 0.923);
+        border-radius: 0%;
+    }
+    25%{
+        border-radius: 75%;
+    }
+    50%{
+        border-radius: 50%;
+    }
+   75%{
+    border-radius: 75%;
+   }
+    100%{
+        background-color: rgba(16, 251, 16, 0.978);
+        border-radius: 0%;
+    }
+} */
+#h2{
+    padding: 3rem;
+    color:white;
+    animation: h2 2s linear 0s infinite alternate backwards;
+    
+}
+@keyframes h2{
+    0%{
+        color: rgb(9, 1, 1);
+       
+
+    }
+    100%{
+        color: white;
+    
+    }
+}
+.main3{
+    margin-top: 30px;
+}
+img{
+    width: 50px;
+    height: 50px;
+    animation: png 3s linear 2s infinite alternate backwards;
+}
+@keyframes png{
+    0%{
+        width: 90px;
+        height: 90px;
+    }
+    0%{
+        width: 150px;
+        height: 150px;
+    }
+    0%{
+        width: 90px;
+        height: 90px;
+    }
+    100%{
+        width: 50px;
+        height: 50px;
+    }
+}
